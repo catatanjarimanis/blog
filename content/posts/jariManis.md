@@ -1,7 +1,7 @@
 ---
 title: "jariManis"
 date: 2019-10-17T22:48:30+07:00
-draft: true
+draft: false
 tags: ["a story"]
 ---
 
