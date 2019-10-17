@@ -11,12 +11,12 @@ paginate = 5
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   # Show reading time in minutes for posts
-  showReadingTime = true
+  showReadingTime = false
 
 [languages]
   [languages.en]
     title = "Catatan Jari Manis"
-    subtitle = "A simple theme for Hugo"
+    subtitle = "a story from my ring finger"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
