@@ -1,63 +1,79 @@
-baseURL = "https://catatanjarimanis.github.io"
-languageCode = "en-us"
+# Site settings
+baseurl = "https://catatanjarimanis.github.io"
+languageCode = "en"
 title = "Catatan Jari Manis"
-
-theme = "tale"
-
-# Disqus shortcode
-# Disable comments for any individual post by adding "comments: false" in its frontmatter
-disqusShortname = "jarimanis"
-
-
-
-# Number of blog posts in each pagination page
-paginate = 6
-
-[permalinks]
-
-# Configures post URLs
-post = "/:slug/"
-
-# Make tags and categories work
-[indexes]
-    tag = "tags"
-    category = "categories"
+theme = "hugo-theme-cactus-plus"
+googleAnalytics = "your_google_analytics_id"
+# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
+hasCJKLanguage = false
 
 [params]
+	author = "Jari Manis"
+	description = "Site Description"
+	bio = "author biography"
 
-    # If false, all of blog post will appear on front page (and in pagination)
-    truncate = true
+	twitter = "your_twitter_id"
+	facebook = "your_facebook_id"
 
-    # Author's name (appears in meta tags and under posts)
-    author = "Jari Manis"
+	enableRSS = true
+	enableToc = true
 
-    # This text appears in site header under website title
-    subtitle = "Hanya sebuah catatan kehidupan"
+	enableDisqus = true
+	disqusShortname = "your_disqus_short_name"
 
-    # Search engine URL
-    searchEngineURL = "https://www.google.com/search"
 
-    # Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so it was added to index.html manually
-    continueReadingText = "Baca selengkapnya..."
+	enableSummary = true
+	# Set the value to true if use description in post front matter replace content summary
+	useDescriptionReplaceSummary = false
 
-    # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
-    googleAnalytics = "UA-XXXXX-X"
 
-  # Switch to true to enable RSS icon link
-    rss = true
+	enableGoogleAnalytics = true
+	enableBaiduAnalytics = false
+	# Set the value to your baidu analysis code if you want to use baidu analytics
+	baiduAnalytics = 'your_baidu_analysis_code'
 
-  # Set to true to use a text label for RSS instead of an icon
-  # This is overwritten by the "rss" setting
-  textrss = false
+	enableTwitterCard = true
+	# The url for twitter card image, default is avatar.png in static/images directory
+	twitterCardImage = ""
 
-    # Website's default description
-    defaultDescription = ""
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
 
-    # Populate this with your own search keywords - these will appear in meta tags
-    # defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
 
-  # Set to true to hide ReadingTime on posts
-  disableReadingTime = false
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
 
-  # Set to true to disable downloading of remote Google fonts
-  disableGoogleFonts = false
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
+
+	# show latest posts in single page
+	showLatestPosts = false
+	readMore = ""
+
+	# Share
+	enableShare = true
+	tweet = ""
+	share = ""
+
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+	facebook-square = "https://www.facebook.com/nodejh"
+	twitter-square = "https://www.twitter.com/nodejh"
+	github-square = "https://www.github.com/nodejh"
