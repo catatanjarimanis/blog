@@ -2,6 +2,7 @@
 title: "Test"
 date: 2019-10-16T11:57:39+07:00
 draft: false
+tags: ["javascript"]
 menu: "main"
 ---
 
