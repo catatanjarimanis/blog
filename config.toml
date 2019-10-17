@@ -45,7 +45,7 @@ hasCJKLanguage = false
 
 	# Navigation links
 	home = ""
-	about = ""
+	about = "pages/"
 	archive = ""
 
 	olderPosts = ""
